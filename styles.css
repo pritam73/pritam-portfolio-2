@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+#loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+svg text {
+  fill: none;
+  stroke: #ff6600;
+  stroke-width: 2;
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+}
+
+#profile {
+  padding: 2rem;
+  opacity: 0;
+}
+
+#profile h1 {
+  color: #ff6600;
+  font-size: 2.5rem;
+}
+
+#profile h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#profile h3 {
+  color: #ff6600;
+  margin-top: 1rem;
+}
